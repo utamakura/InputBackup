@@ -1,0 +1,13 @@
+{
+  "getBtn": "Reload",
+  "downloadTextBtn": "Save as text",
+  "copyClipboardBtn": "Copy to clipboard",
+  "selectAllBtn": "Select all / Release all",
+  "deleteSelectedBtn": "Delete select item",
+  "deleteUnselectedBtn": "Delete non-select item",
+
+  "saveTextSuccessMsg": "Saved as text",
+  "copyClipboardSuccessMsg": "Copied to clipboard",
+
+  "getErrorMsg": "Failed to get"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--  CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="sticky-top">
+        <a href="#" id="get" class="btn btn-outline-primary" data-i18n="getBtn"></a>
+        <a href="#" id="download_text" class="btn btn-outline-primary disabled" data-i18n="downloadTextBtn" tabindex="-1" role="button" aria-disabled="true"></a>
+        <a href="#" id="copy_clipboard" class="btn btn-outline-primary disabled" data-i18n="copyClipboardBtn" tabindex="-1" role="button" aria-disabled="true"></a>
+
+        <div aria-live="polite" aria-atomic="true">
+          <div class="toast_columns" style="position: absolute; top: 10px; right: 0;">
+          </div>
+        </div>
+      </header>
+      <div class="row">
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <!--  JavaScript -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/i18next.min.js"></script>
+    <script src="js/jquery-i18next.min.js"></script>
+    <script src="js/i18nextXHRBackend.min.js"></script>
+    <script src="js/util/LangUtil.js"></script>
+    <script src="js/util/TextUtil.js"></script>
+    <script src="js/util/PopupUtil.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

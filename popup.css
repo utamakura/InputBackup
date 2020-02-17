@@ -1,0 +1,50 @@
+html {
+    font-size: 0.7rem;
+}
+
+body {
+    width: 780px;
+    background-color: #fbfbfb;
+}
+
+header {
+    padding-top: 10px;
+}
+
+header .btn {
+    background-color: #fbfbfb;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    cursor: pointer;
+}
+
+#download_text {
+    margin-left: 5px;
+}
+
+#copy_clipboard {
+    margin-left: 5px;
+}
+
+#select_all {
+}
+
+#delete_selected {
+    margin-left: 3px;
+}
+
+#delete_unselected {
+    margin-left: 3px;
+}
+
+#result {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

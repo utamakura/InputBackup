@@ -1,0 +1,13 @@
+{
+  "getBtn": "再読み込み",
+  "downloadTextBtn": "テキスト保存",
+  "copyClipboardBtn": "クリップボードコピー",
+  "selectAllBtn": "全選択／全解除",
+  "deleteSelectedBtn": "選択項目を削除",
+  "deleteUnselectedBtn": "選択項目以外を削除",
+
+  "saveTextSuccessMsg": "テキストで保存しました",
+  "copyClipboardSuccessMsg": "クリップボードにコピーしました",
+
+  "getErrorMsg": "取得に失敗しました"
+}
