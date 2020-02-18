@@ -34,8 +34,8 @@ class PopupUtil {
 
     // サイトタイトル取得
     findSiteTitle() {
-        let siteTitle = $(RESULT_ELEMENT).find('title').text();
-        return siteTitle;
+        let site_title = $(RESULT_ELEMENT).find('title').text();
+        return site_title;
     }
 
     // 結果Elementを生成
@@ -160,11 +160,11 @@ function findHeading(obj) {
 
 // 結果メッセージ作成
 function formatResultMsg(input_str, heading) {
-    let resultMsg =
+    let result_msg =
         '<div class="card mb-3"><div class="card-body">' +
         '  <h5 class="card-title border-bottom">『' + heading + '』</h5>' +
         '  <p class="card-text">' + String(input_str).replace(/\r?\n/g, '<br />') + '</p>' +
         '</div></div>';
-    return resultMsg;
+    return result_msg;
 }
 

@@ -30,27 +30,27 @@ $(function() {
           return false;
         }
 
-        let popupUtil = new PopupUtil(result);
+        let popup_util = new PopupUtil(result);
         let site_title = '';
         let result_el = '';
 
         try {
-          popupUtil.convertPopupElement();
-          site_title = popupUtil.findSiteTitle();
-          result_el = popupUtil.createResultElement();
+          popup_util.convertPopupElement();
+          site_title = popup_util.findSiteTitle();
+          result_el = popup_util.createResultElement();
         } catch (e) {
           console.error(e);
         }
 
         if (result_el) {
           // 結果が生成された時、ボタン有効化
-          popupUtil.enableButton();
+          popup_util.enableButton();
         } else {
           // 結果が生成されなかった時、エラーメッセージ表示
           result_el = error_el;
         }
 
-        popupUtil.refreshResultElement(site_title, result_el);
+        popup_util.refreshResultElement(site_title, result_el);
       });
     });
   });
@@ -62,8 +62,8 @@ $(function() {
     let toast_msg = i18next.t('saveTextSuccessMsg');
 
     // テキストダウンロード処理
-    let textUtil = new TextUtil();
-    textUtil.downloadText(result_msg).appendToast(toast_msg, 5000);
+    let text_util = new TextUtil();
+    text_util.downloadText(result_msg).appendToast(toast_msg, 5000);
 
     $('.hide-during-processing').show();
   });
@@ -75,8 +75,8 @@ $(function() {
     let toast_msg = i18next.t('copyClipboardSuccessMsg');
 
     // クリップボードコピー処理
-    let textUtil = new TextUtil();
-    textUtil.copyClipboard(result_msg).appendToast(toast_msg, 5000);
+    let text_util = new TextUtil();
+    text_util.copyClipboard(result_msg).appendToast(toast_msg, 5000);
 
     $('.hide-during-processing').show();
   });
