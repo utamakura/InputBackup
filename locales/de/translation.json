@@ -1,0 +1,13 @@
+{
+  "getBtn": "Neu laden",
+  "downloadTextBtn": "In Textdatei speichern",
+  "copyClipboardBtn": "In Zwischenablage kopieren",
+  "selectAllBtn": "Alle Wählen / Alle Abwählen",
+  "deleteSelectedBtn": "Gewählte Artikel löschen",
+  "deleteUnselectedBtn": "Artikel ohne Wahl löschen",
+
+  "saveTextSuccessMsg": "Der Text wurde in Textdatei erfolgreich gespeichert",
+  "copyClipboardSuccessMsg": "Der Text wurde in der Zwischenablage kopiert",
+
+  "getErrorMsg": "Fehler beim Einnehmen der Textfeldern"
+}
